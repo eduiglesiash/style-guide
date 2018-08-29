@@ -1,6 +1,6 @@
 # GIT-COMMAND
 
-Tabla de contenido
+## Tabla De Contenidos
 
 1. [Git Commit](#git-commit)
 1. [Git Merge](#git-merge)
