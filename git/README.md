@@ -2,16 +2,16 @@
 
 Tabla de contenido
 
-1. [Git commit](#Git-Commit)
-1. [Git merge](#Git-merge)
-1. [Git branch](#Git-branch)
-1. [Git stash](#Git-stash)
-1. [Git Tags](#Git-tags)
-1. [Git show](#Git-show)
-1. [Git config](#Git-config)
-1. [Git reflog](#Git-reflog)
+1. [Git Commit](#git-commit)
+1. [Git Merge](#git-merge)
+1. [Git Branch](#git-branch)
+1. [Git Stash](#git-stash)
+1. [Git Tags](#git-tags)
+1. [Git Show](#git-show)
+1. [Git Config](#git-config)
+1. [Git Reflog](#git-reflog)
 
-## Git commit
+## Git Commit
 
 Sirve realizar el commit sobre los cambios que tenemos en local.
 
@@ -39,7 +39,7 @@ $> git commit --amend
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git merge
+## Git Merge
 
 Este comando se usa para realizar los merge entre ramas.
 
@@ -59,7 +59,7 @@ Si el merge se ha realizado correctamente, este comando no realizará ninguna ac
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git branch
+## Git Branch
 
 Este comando nos sirve para trabaja con las ramas de nuestro proyecto.
 
@@ -127,7 +127,7 @@ $> git branch -m [nombre anterion] [nombre nuevo]
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git stash
+## Git Stash
 
 Sirve para guardar el estado actual de tus cambio sin tener que realizar un commit en tu proyecto, al usarlo devuelves el puntero hacia el último commit realizado como si nada hubiera pasado. Así los cambios que se realizaron se quedan guardados en una rama temporal de Git y los puedes recuperar cuando desees, con los siguientes comandos `git stash apply` o `git stash pop`
 
@@ -145,7 +145,7 @@ $> git stash apply
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git tags
+## Git Tags
 
 Con este comando podemos etiquetar versiones que hayamos realizado en nuestro repositorio.
 
@@ -171,7 +171,7 @@ $> git push origin tag v0.0.1
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git show
+## Git Show
 
 Con este comando podemos ver la información de varios tipos de objetos GIT
 
@@ -181,7 +181,7 @@ $> git show v0.0.1 -s
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git config
+## Git Config
 
 Con este comando podemos leer y escribir las configuraciones de GIT, por usuario y por repositorio.
 
@@ -203,11 +203,11 @@ $> git config --global user.email "email@dominio.com"
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git log
+## Git Log
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
 
-## Git reflog
+## Git Reflog
 
 
 **[⬆ back to tabla de contenidos](#tabla-de-contenidos)**
