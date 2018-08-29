@@ -1,4 +1,4 @@
-# GIT-COMMAND
+# GIT
 
 ## Tabla De Contenidos
 
